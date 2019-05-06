@@ -9,6 +9,9 @@
 body {
 
 }
+img{
+    object-fit: cover;
+}
 nav{
 }
 
