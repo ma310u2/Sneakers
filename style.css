@@ -120,18 +120,28 @@ a.btn2 {
 
 #scd-item {
     margin-top: 135px;
-    position: relative;
     text-align: center;
-
 }
 
-#top {
-    position: absolute;
+#scd-img {
+    display: inline-flex;
+}
+
+#top-bottom {
+    width: min-content;
+}
+
+#top-bottom img {
+    vertical-align: bottom;
 }
 
 #top,
 #bottom {
     margin-left: 15px;
+}
+
+#bottom {
+    margin-top: 20px;
 }
 
 #scd-btn {
@@ -158,6 +168,7 @@ a.btn2 {
 #thd-item img {
     vertical-align: bottom;
 }
+
 
 #MEN,
 #WOMEN,
@@ -199,3 +210,5 @@ a.btn2 {
     display: inline-block;
     width: 50%;
 }
+
+
