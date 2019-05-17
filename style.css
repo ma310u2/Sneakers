@@ -8,7 +8,9 @@
 
 }
 
-body {}
+body {
+    font-family: 'Noto Sans JP', sans-serif,'Roboto Slab', serif;
+}
 
 header {
     position: fixed;
