@@ -72,7 +72,7 @@ button {
     font-size: 12px;
     height: 200px;
     width: 140px;
-    isplay: none;
+    display: none;
     background-color: white;
     position: absolute;
     right: 0;
@@ -94,7 +94,9 @@ button {
 #help-list li:first-child {
     padding-top: 0;
 }
-
+.help-link:hover {
+    opacity: 0.5;
+}
 #header-menu {
     line-height: 80px;
     height: 80px;
