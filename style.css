@@ -295,12 +295,20 @@ footer {
     height: 100%;
     width: 20%;
     text-align: right;
+    
 }
 
 #sns-icon li {
     display: inline-block;
 }
-
+#sns-icon i{
+    color:#7e7e7e;
+    font-size:30px;
+    margin-right:10px;
+}
+#sns-icon i:hover{
+    color:white;
+}
 #sub-footer-list {
     text-align: right;
     padding-top: 5px;
