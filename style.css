@@ -44,9 +44,9 @@ a {
     display: flex;
     float: right;
 }
-#login-nav a {
-    /*margin-right: 20px;*/
-    /*display:inline-block;*/ 
+.sub-list {
+    margin-right: 20px;
+    display:inline-block;
 }
 input {
     border-radius: 0px;
