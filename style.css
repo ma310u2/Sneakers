@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif,'Roboto Slab', serif;
+    font-family: 'Noto Sans JP';
 }
 
 header {
@@ -121,10 +121,10 @@ button {
     display: inline-block;
 }
 
-#top-list a{ 
+#top-list a{
     padding: 0 40px;
-    display: inline-block;   
-
+    display: inline-block;
+    font-weight: bold;
 }
 
 #header-menu form {
