@@ -38,6 +38,7 @@ a {
     line-height: 40px;
     box-shadow: inset 0 -1px 0 0 #e5e5e5;
     font-size: 12px;
+    padding-right: 20px;
 }
 
 #login-nav ul {
