@@ -47,9 +47,11 @@ a {
     display: flex;
     float: right;
 }
+
 .sub-list {
     padding: 10px 13px;
 }
+
 input {
     border-radius: 0px;
     height: 40px;
@@ -67,9 +69,11 @@ button {
     position: relative;
     left: -30px;
 }
+
 .bottom-hover:hover {
     box-shadow: inset 0 -3px 0 0px black;
 }
+
 #help-list {
     font-size: 12px;
     height: 200px;
@@ -96,9 +100,11 @@ button {
 #help-list li:first-child {
     padding-top: 0;
 }
+
 .help-link:hover {
     opacity: 0.5;
 }
+
 #header-menu {
     line-height: 80px;
     height: 80px;
@@ -120,7 +126,7 @@ button {
     display: inline-block;
 }
 
-#top-list a{
+#top-list a {
     padding: 0 40px;
     display: inline-block;
     font-weight: bold;
@@ -266,6 +272,7 @@ footer {
     display: inline-block;
     vertical-align: top;
 }
+
 .footer-list {
     padding-right: 15px;
 }
@@ -274,20 +281,21 @@ footer {
     margin-bottom: 5px;
 }
 
-.footer-link>a {
+.footer-link > a {
     color: #7e7e7e;
     font-size: 13px;
 }
-.footer-link>a:hover{
-    color:white;
+
+.footer-link > a:hover {
+    color: white;
 }
 
-.footer-link.footer-accordion>a {
+.footer-link.footer-accordion > a {
     color: white;
     font-size: 16px;
 }
 
-.footer-link.footer-link-header>a {
+.footer-link.footer-link-header > a {
     color: white;
     font-size: 16px;
 }
@@ -301,14 +309,17 @@ footer {
 #sns-icon li {
     display: inline-block;
 }
-#sns-icon i{
-    color:#7e7e7e;
+
+#sns-icon i {
+    color: #7e7e7e;
     font-size: 25px;
-    margin-right:10px;
+    margin-right: 10px;
 }
-#sns-icon i:hover{
-    color:white;
+
+#sns-icon i:hover {
+    color: white;
 }
+
 #sub-footer-list {
     text-align: right;
     border-top: 1px solid #7e7e7e;
@@ -318,9 +329,7 @@ footer {
     display: inline-block;
 }
 
-#sub-footer-list a{
+#sub-footer-list a {
     font-size: 12px;
-    margin-right:8px;
+    margin-right: 8px;
 }
-
-
