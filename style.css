@@ -47,7 +47,10 @@ a {
     display: flex;
     float: right;
 }
-
+.fas {
+    padding: 5px;
+    margin-left: 10px;
+}
 .sub-list {
     padding: 10px 13px;
 }
