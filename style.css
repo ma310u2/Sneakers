@@ -238,8 +238,9 @@ a.btn2 {
 #thd-item .btn2 {
     position: absolute;
     bottom: 20px;
-    left: 45px;
-    margin-top: 0;
+    left: 0px;
+    right: 0px;
+    margin: auto;
 }
 
 #Popularity {
