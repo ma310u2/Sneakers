@@ -1,4 +1,10 @@
 @media all and (max-width: 900px) {
+    #PC-header{
+        display:none;
+    }
+    #Mobile-header{
+        display:block;
+    }
 
 }
 @media all and (max-width: 650px) {
