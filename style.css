@@ -19,8 +19,9 @@ body {
     background-color: white;
     z-index: 2;
 }
-#Mobile-header{
-    display:none;
+
+#Mobile-header {
+    display: none;
 }
 
 img {
