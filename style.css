@@ -12,12 +12,15 @@ body {
     font-family: 'Noto Sans JP';
 }
 
-header {
+#PC-header {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
     z-index: 2;
+}
+#Mobile-header{
+    display:none;
 }
 
 img {
