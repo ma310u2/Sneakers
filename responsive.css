@@ -52,11 +52,15 @@
         overflow-y: scroll;
         overflow-x: hidden;
     }
+    a.Mobile-link.Mobile-login {
+        background-color: white;
+    }
 
     li.Mobile-item {
         margin-left: auto;
         width: 200px;
-        background-color: #ccc;
+        background-color: #f7f7f7;
+        border-bottom: 1px solid #e5e5e5;
     }
 
     a.Mobile-link {
@@ -66,7 +70,7 @@
     }
 
     div#search-bar {
-        isplay: none;
+        display: none;
         width: 100%;
         height: 100%;
         background-color: white;
