@@ -23,7 +23,11 @@
         background-color: white;
         box-shadow: inset 0 -1px 0 0 #e5e5e5;
     }
-
+    #Mobile-nav i{
+    padding: 5px;
+    margin-left: 10px;
+    font-size:22px;
+    }
     .Mobile-slide{
         display:none;
         width: 0px;
@@ -87,18 +91,16 @@
     div#search-bar button {
         position: absolute;
         font-size: 18px;
+        outline:none;
+        font-size:22px;
     }
     button#search2 {
-        left: 0;
-        top: 20px;
+        left: 30px;
+        top: 29px;
     }
     button#close {
-        top: 20px;
-        right: 0px;
-    }
-    div#search-bar i {
-        padding: 11px 10px;
-        margin-left: 25px;
+        top: 28px;
+        right: 25px;
     }
 }
 
