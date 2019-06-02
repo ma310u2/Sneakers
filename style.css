@@ -174,8 +174,9 @@ a.btn2 {
 }
 
 #scd-item {
-    margin-top: 135px;
     text-align: center;
+    max-width: 1040px;
+    margin: 135px auto 0;
 }
 
 #scd-img {
@@ -183,16 +184,25 @@ a.btn2 {
 }
 
 #top-bottom {
-    width: min-content;
+    margin-left: 20px;
 }
 
 #top-bottom img {
     vertical-align: bottom;
 }
 
+#main {
+    width: 48%;
+}
+
 #top,
 #bottom {
-    margin-left: 20px;
+
+    width: 100%;
+}
+
+#top {
+    object-position: top;
 }
 
 #bottom {
@@ -217,11 +227,14 @@ a.btn2 {
 #thd-item {
     display: flex;
     justify-content: center;
-    margin: 135px 20px 0;
+    margin: 135px auto 0;
+    max-width: 1040px;
+    width: 100%:
 }
 
 #thd-item img {
     vertical-align: bottom;
+    width: 100%;
 }
 
 
@@ -250,6 +263,7 @@ a.btn2 {
     left: 0px;
     right: 0px;
     margin: auto;
+    width: 70%;
 }
 
 #Popularity {
