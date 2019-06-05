@@ -114,4 +114,45 @@
     }
 }
 
-@media all and (max-width: 650px) {}
+@media all and (max-width: 650px) {
+    #footer-body{
+        display:block;
+    }
+    #footer-list-group {
+        width: 100%;
+    }
+    #footer-list-group ul {
+        display:block;
+    }
+    .footer-list {
+        padding-right: 0px;
+    }
+    li.footer-link.footer-link-header{
+        display:none;
+    }
+    #sns-icon{
+        text-align:left;
+        width:100%;
+    }
+    .mobile-list {
+        color: white;
+        display:block;
+        position:relative;
+    }
+    ul#tog1,ul#tog2{
+        display:none;
+    }
+    .footer-btn{
+        text-align:right;
+        position:absolute;
+        right:0;
+    }
+    #sub-footer-list{
+        text-align:left;
+        border-top:none;
+    }
+    #sub-footer-list li {
+        display:block;
+        width:100%;
+    }
+}
