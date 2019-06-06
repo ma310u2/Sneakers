@@ -88,12 +88,10 @@ button {
 
 #help-list {
     font-size: 12px;
-    height: 200px;
     width: 140px;
     display: none;
-    background-color: white;
     position: absolute;
-    right: 0;
+    right: 20px;
     z-index: 2;
     border: 1px solid #e5e5e5;
 }
@@ -102,11 +100,13 @@ button {
     width: 100%;
     display: inline-block;
     height: 100%;
-    padding-left: 20px;
+    padding: 20px;
+    background-color: white;
 }
 
 #help-list li {
     height: 30px;
+    line-height: 30px;
 }
 
 #help-list li:first-child {
