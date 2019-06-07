@@ -115,8 +115,12 @@
 }
 
 @media all and (max-width: 650px) {
+    footer{
+        padding:20px 5px;
+    }
     #footer-body{
         display:block;
+        padding-bottom:0;
     }
     #footer-list-group {
         width: 100%;
@@ -124,8 +128,15 @@
     #footer-list-group ul {
         display:block;
     }
+    #footer-list-group ul:first-child{
+        padding:10px 0;
+        box-shadow:inset 0 -1px 0 0 #7e7e7e;
+    } 
     .footer-list {
         padding-right: 0px;
+    }
+    .footer-link{
+        padding:0 15px;
     }
     li.footer-link.footer-link-header{
         display:none;
@@ -133,26 +144,33 @@
     #sns-icon{
         text-align:left;
         width:100%;
+        padding: 20px 15px;
     }
     .mobile-list {
         color: white;
         display:block;
         position:relative;
+        padding: 15px;
     }
     ul#tog1,ul#tog2{
         display:none;
+        box-shadow: inset 0 -1px 0 0 #7e7e7e;
+        padding-bottom: 15px;
     }
     .footer-btn{
         text-align:right;
         position:absolute;
-        right:0;
+        right:15px;
     }
     #sub-footer-list{
         text-align:left;
         border-top:none;
+        padding-bottom: 20px;
     }
     #sub-footer-list li {
         display:block;
         width:100%;
+        padding: 10px 15px;
     }
+
 }
