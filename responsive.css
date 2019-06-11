@@ -55,8 +55,6 @@
 }
 
     ul#Mobile-menu {
-        /* width: 29%; */
-        height: 594px;
         overflow-y: scroll;
         overflow-x: hidden;
     }
