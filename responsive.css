@@ -33,16 +33,6 @@
         font-size: 20px;
     }
 
-    .Mobile-slide {
-        display: none;
-        width: 0px;
-    }
-
-    .Mobile-slide.opne {
-        display: block;
-        transition: .5s;
-    }
-
     div.Mobile-back {
         background-color: rgb(0, 0, 0, 0.5);
         width: 100%;
@@ -56,6 +46,7 @@
     top: 0;
     right: -225px;
     z-index: 3;
+        transition: .5s;
 }
 .slide-togg.opne {
     right: 0px;
