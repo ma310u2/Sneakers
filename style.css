@@ -273,9 +273,8 @@ a.btn2 {
 }
 
 #Popularity ul {
-    overflow-x: auto;
+    /* overflow-x: auto; */
     white-space: nowrap;
-
 }
 
 #Popularity li {
