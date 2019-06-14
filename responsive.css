@@ -1,4 +1,7 @@
 @media all and (max-width: 900px) {
+    #top-item {
+    margin-top: 45px;
+    }
     div#PC-header {
         display: none;
     }
@@ -110,7 +113,27 @@
         right: 25px;
     }
 }
+@media all and (max-width: 750px) {
+    #thd-item{
+        display: inline-block;
+    }
 
+    #thd-item img{
+        object-position: top;
+        height: 660px;
+    }
+ 
+    #MEN,#WOMEN,#KIDS{
+        margin: 0px 20px;
+        text-align: center;
+    }
+    #WOMEN,#KIDS{
+        margin-top: 85px;
+    }
+    #thd-item .btn2 {
+        width:210px;
+    }
+}
 @media all and (max-width: 650px) {
     footer{
         padding:20px 5px;
