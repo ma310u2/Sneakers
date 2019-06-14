@@ -151,10 +151,13 @@ button {
 }
 
 #top-item {
-    margin-top: 125px;
     text-align: center;
+    max-width:1040px;
+    margin:125px auto;
 }
-
+#top-item img{
+    width:100%;
+}
 a.btn1,
 .btn2 {
     display: block;
@@ -229,7 +232,7 @@ a.btn2 {
     justify-content: center;
     margin: 135px auto 0;
     max-width: 1040px;
-    width: 100%:
+    width: 100%;
 }
 
 #thd-item img {
@@ -242,7 +245,6 @@ a.btn2 {
 #WOMEN,
 #KIDS {
     position: relative;
-
 }
 
 #WOMEN {
