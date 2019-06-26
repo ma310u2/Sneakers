@@ -152,12 +152,14 @@ button {
 
 #top-item {
     text-align: center;
-    max-width:1040px;
-    margin:125px auto;
+    max-width: 1040px;
+    margin: 125px auto;
 }
-#top-item img{
-    width:100%;
+
+#top-item img {
+    width: 100%;
 }
+
 a.btn1,
 .btn2 {
     display: block;
@@ -327,8 +329,9 @@ footer {
     color: white;
     font-size: 16px;
 }
-.mobile-list{
-    display:none;
+
+.mobile-list {
+    display: none;
 }
 
 #sns-icon {
