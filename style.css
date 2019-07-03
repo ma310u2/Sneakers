@@ -274,17 +274,9 @@ a.btn2 {
     margin-top: 125px;
 }
 
-#Popularity ul {
-    /* overflow-x: auto; */
-    white-space: nowrap;
-}
-
-#Popularity li {
-    display: inline-block;
-    width: 50%;
-}
 /*スワイプ*/
 .swiper-container {
+    margin-top: 20px;
     overflow: hidden;
 }
 
@@ -294,6 +286,7 @@ a.btn2 {
 
 /*フッター*/
 footer {
+    margin-top: 125px;
     padding: 50px 20px 0;
     background-color: black;
 }
