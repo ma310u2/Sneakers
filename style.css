@@ -283,7 +283,16 @@ a.btn2 {
     display: inline-block;
     width: 50%;
 }
+/*スワイプ*/
+.swiper-container {
+    overflow: hidden;
+}
 
+.swiper-wrapper {
+    display: flex;
+}
+
+/*フッター*/
 footer {
     padding: 50px 20px 0;
     background-color: black;
