@@ -115,6 +115,22 @@
         top: 28px;
         right: 25px;
     }
+
+    #scd-item {
+        display: none;
+    }
+
+    #mobile-swiper {
+        display: block;
+    }
+
+    #scd-img-mobile{
+        display: flex;
+    }
+
+    #scd-img-mobile img{
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 750px) {

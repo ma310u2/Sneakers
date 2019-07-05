@@ -229,6 +229,10 @@ a.btn2 {
     margin-left: 10px;
 }
 
+#mobile-swiper {
+    display: none;
+}
+
 #thd-item {
     display: flex;
     justify-content: center;
