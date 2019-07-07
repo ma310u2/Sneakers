@@ -285,7 +285,7 @@ a.btn2 {
 }
 
 .swiper-wrapper {
-    display: flex;
+    display:-webkit-box;
 }
 
 /*フッター*/
