@@ -131,6 +131,9 @@
 }
 
 @media all and (max-width: 750px) {
+    #main{
+        margin:0px 20px;
+    }
     #thd-item {
         display: inline-block;
     }
@@ -143,7 +146,7 @@
     #MEN,
     #WOMEN,
     #KIDS {
-        margin: 0px 20px;
+        margin: 0px;
         text-align: center;
     }
 
