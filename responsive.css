@@ -131,7 +131,7 @@
 }
 
 @media all and (max-width: 750px) {
-    #main{
+    #main-page{
         margin:0px 20px;
     }
     #thd-item {
