@@ -1,4 +1,7 @@
 @media all and (max-width: 900px) {
+    #main-page{
+        margin:0px 20px;
+    }
     #top-item {
         margin-top: 45px;
     }
@@ -131,9 +134,7 @@
 }
 
 @media all and (max-width: 750px) {
-    #main-page{
-        margin:0px 20px;
-    }
+
     #thd-item {
         display: inline-block;
     }
