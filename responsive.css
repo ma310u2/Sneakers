@@ -1,7 +1,8 @@
 @media all and (max-width: 900px) {
-    #main-page{
-        margin:0px 20px;
+    #main-page {
+        margin: 0px 20px;
     }
+
     #top-item {
         margin-top: 45px;
     }

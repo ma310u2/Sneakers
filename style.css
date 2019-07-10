@@ -285,20 +285,22 @@ a.btn2 {
 }
 
 .swiper-wrapper {
-    display:-webkit-box;
+    display: -webkit-box;
 }
 
 .swiper-scrollbar {
     height: 7px;
-    background-color: rgb(0,0,0,0.1);
+    background-color: rgb(0, 0, 0, 0.1);
     border-radius: 5px;
     margin-top: 5px;
 }
+
 .swiper-scrollbar-drag {
     height: 7px;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     border-radius: 5px;
 }
+
 /*フッター*/
 footer {
     margin-top: 125px;
