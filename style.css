@@ -168,7 +168,7 @@ a.btn1,
     line-height: 45px;
     border: 1px solid;
     border-radius: 45px;
-    margin: 65px auto 0;
+    margin: 45px auto 0;
     text-align: center;
 }
 
@@ -220,12 +220,12 @@ a.btn2 {
 }
 
 #scd-btn .btn1 {
-    margin-top: 65px;
+    margin-top: 45px;
     margin-right: 10px;
 }
 
 #scd-btn .btn2 {
-    margin-top: 65px;
+    margin-top: 45px;
     margin-left: 10px;
 }
 
