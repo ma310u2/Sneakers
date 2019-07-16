@@ -177,7 +177,16 @@ a.btn2 {
     background-color: black;
     border: none;
 }
+a.btn1:hover {
+    background-color: rgb(242, 242, 242);
+    opacity: 0.8;
+    transition: 0.2s;
+}
 
+a.btn2:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
 #scd-item {
     text-align: center;
     max-width: 1040px;
