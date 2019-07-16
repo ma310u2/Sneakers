@@ -210,7 +210,9 @@
         position: relative;
         padding: 15px;
     }
-
+    .mobile-list a{
+        color: white;
+    }
     ul#tog1,
     ul#tog2 {
         display: none;
