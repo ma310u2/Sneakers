@@ -127,6 +127,7 @@ button {
 #title-logo {
     position: absolute;
     left: 0;
+    margin-left: 20px;
 }
 
 #top-list ul {
