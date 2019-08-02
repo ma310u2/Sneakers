@@ -1,4 +1,7 @@
 @media all and (max-width: 900px) {
+    #title-logo {
+        line-height: 45px;
+    }
     #main-page {
         margin: 0px 20px;
     }
