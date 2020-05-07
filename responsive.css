@@ -165,7 +165,7 @@
     }
 
     #thd-item img {
-        height: 450px;
+        height: 500px;
     }
 
     #MEN,
@@ -193,7 +193,7 @@
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 500px) {
     #thd-item {
         display: inline-block;
     }
