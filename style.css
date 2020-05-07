@@ -26,6 +26,8 @@ body {
 
 img {
     object-fit: cover;
+
+
 }
 
 nav {}
@@ -153,8 +155,8 @@ button {
 
 #top-item {
     text-align: center;
-    max-width: 1040px;
-    margin: 125px auto;
+    /* max-width: 1040px; */
+    margin: 125px 55px;
 }
 
 #top-item img {
@@ -178,6 +180,7 @@ a.btn2 {
     background-color: black;
     border: none;
 }
+
 a.btn1:hover {
     background-color: rgb(242, 242, 242);
     opacity: 0.8;
@@ -188,41 +191,17 @@ a.btn2:hover {
     opacity: 0.8;
     transition: 0.2s;
 }
+
 #scd-item {
     text-align: center;
-    max-width: 1040px;
-    margin: 135px auto 0;
+    /* max-width: 1040px; */
+    margin: 135px 55px;
 }
 
-#scd-img {
-    display: inline-flex;
-}
-
-#top-bottom {
-    margin-left: 20px;
-}
-
-#top-bottom img {
-    vertical-align: bottom;
-}
-
-#main {
-    width: 48%;
-}
-
-#top,
-#bottom {
-
+#scd-item img {
     width: 100%;
 }
 
-#top {
-    object-position: top;
-}
-
-#bottom {
-    margin-top: 20px;
-}
 
 #scd-btn {
     display: flex;
@@ -246,14 +225,15 @@ a.btn2:hover {
 #thd-item {
     display: flex;
     justify-content: center;
-    margin: 135px auto 0;
-    max-width: 1040px;
-    width: 100%;
+    margin: 135px 55px;
+    /* max-width: 1040px; */
+    /* width: 100%; */
 }
 
 #thd-item img {
     vertical-align: bottom;
     width: 100%;
+    object-position: top;
 }
 
 
@@ -285,17 +265,40 @@ a.btn2:hover {
 }
 
 #Popularity {
-    margin-top: 125px;
+    margin: 125px 0px;
+    margin-left: 55px;
 }
 
 /*スワイプ*/
 .swiper-container {
-    margin-top: 20px;
     overflow: hidden;
 }
 
 .swiper-wrapper {
-    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    max-width: 460px;
+    margin-right: 16px;
+}
+
+.swiper-slide a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.swiper-in {}
+
+.swiper-item {
+    width: 100%;
 }
 
 .swiper-scrollbar {
@@ -314,7 +317,7 @@ a.btn2:hover {
 /*フッター*/
 footer {
     margin-top: 125px;
-    padding: 50px 20px 0;
+    padding: 50px 55px 0;
     background-color: black;
 }
 
