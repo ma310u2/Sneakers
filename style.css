@@ -162,7 +162,9 @@ button {
 #top-item img {
     width: 100%;
 }
-
+.mobile-img{
+    display: none;
+}
 a.btn1,
 .btn2 {
     display: block;
