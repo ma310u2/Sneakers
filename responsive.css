@@ -158,9 +158,7 @@
         margin-right: 0px;
     }
 
-    #Popularity {
-        margin-left: 0px;
-    }
+
 
     #thd-item {
         display: flex;
@@ -186,6 +184,10 @@
         width: 90%;
     }
 
+    #Popularity {
+        margin-left: 0px;
+    }
+
     .swiper-slide {
         min-width: 300px;
     }
@@ -206,6 +208,78 @@
         height: 400px;
         display: block;
         object-position: left;
+    }
+
+    .snd-img {
+        position: relative;
+    }
+
+    .snd-1 {
+        opacity: 0;
+        animation-name: chageMainImage;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+
+    .snd-2 {
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        animation-name: chageMainImage;
+        animation-delay: 10s;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        ;
+    }
+
+    /*keyframes*/
+    @keyframes chageMainImage {
+        0% {
+            opacity: 0;
+        }
+
+        4.5% {
+            opacity: 1;
+        }
+
+        20% {
+            opacity: 1;
+        }
+
+        30% {
+            opacity: 1;
+        }
+        50%{
+            opacity: 1
+        }
+        57% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes chageMainImageLast {
+        0% {
+            opacity: 0;
+        }
+
+        5% {
+            opacity: 1;
+        }
+
+        20% {
+            opacity: 1;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        70% {
+            opacity: 0;
+        }
     }
 
     #thd-item {
