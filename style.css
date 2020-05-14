@@ -225,8 +225,6 @@ a.btn2:hover {
 }
 
 #thd-item {
-    display: flex;
-    justify-content: center;
     margin: 135px 55px;
     /* max-width: 1040px; */
     /* width: 100%; */
@@ -245,10 +243,6 @@ a.btn2:hover {
     position: relative;
 }
 
-#WOMEN {
-    margin: 0 20px;
-}
-
 .sex {
     font-weight: bold;
     position: absolute;
@@ -264,6 +258,8 @@ a.btn2:hover {
     right: 0px;
     margin: auto;
     width: 70%;
+    height: 45px;
+    max-width: 230px;
 }
 
 #Popularity {
@@ -276,7 +272,7 @@ a.btn2:hover {
     overflow: hidden;
 }
 
-.swiper-wrapper {
+.swiper-wrapper,.swiper-out {
     display: flex;
     width: 100%;
     height: 100%;
@@ -284,7 +280,7 @@ a.btn2:hover {
 }
 
 .swiper-slide {
-    width: 100%;
+    width: calc((100vw - 144px)/3);
     height: 100%;
     flex-shrink: 0;
     max-width: 460px;
